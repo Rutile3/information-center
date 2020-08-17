@@ -1,0 +1,25 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1em;
+  overflow: hidden;
+}
+
+.background-rutile-rotor {
+  animation: 32s linear infinite rotation1;
+  background: url("rutile-rotor.drawio.svg") no-repeat;
+  background-position: center center;
+  background-size: contain;
+  height: 100vmin;
+  position: absolute;
+  top: 0;
+  width: 100vmin;
+  z-index: -1000;
+}
+@keyframes rotation1 {
+  0%   { transform: rotate(0); }
+  100% { transform: rotate(360deg);}
+}
