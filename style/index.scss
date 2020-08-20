@@ -33,7 +33,7 @@ main {
 
 // 背景
 .background-outer {
-  position: absolute;
+  position: fixed;
   top: 0;
   z-index: -1000;
 }
